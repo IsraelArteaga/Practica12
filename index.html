@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <title>CiTIM Grupo XB</title>
+    <link rel="stylesheet" href="css/problemaStem.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="js/calcularStem.js"></script>
+</head>
+<body>
+  <section class="wrapper">
+    <header>
+      <h1 class="logo"><a href="stem.html">CiTIM</a></h1>
+      
+    </header>
+    <section id="contenedor">
+      <section  class="problema">
+        <h2>Problema: Determina la densidad de Urano si su masa es 14
+          veces la de la Tierra y su radio es 4 veces el radio
+          de la Tierra.</h2>
+        <p>Descripción:</p>
+        <p>la masa de la Tierra de
+          5.97×1024 kg y radio 6378 km.<br>
+        </p>
+      </section>
+      <section  class="esquemaProblema">
+        <h2>Esquema</h2>
+        <center>
+        <img class="imgProblema" src="images/Urano.jpg">
+        </center>
+      </section>
+      <section class="formulas">
+        <h2>Fórmulas</h2>
+        Densidad = Masa/Volumen<br>
+        Volumen=(4/3)pi*r*r*r
+      </section>
+      <section class="datos">
+        <h2>Datos:</h2>
+          m= 5.97×1024 <br>
+          r= 6378 Km.
+      </section>
+      <section class="calculos">
+        <h2>Solución</h2>
+        <p>a)La densidad de la Tierra es:<br>
+        densidad = 5.97E24 Kg/volumen (metros cúbicos) <br>
+        volumen= (4/3)*pi*(84000000)*(8400000)*(84000000) metros cúbicos</p>
+        <button onclick="calcula_densidad();">Presiona para calcular</button>
+      </section>
+      <section class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoA"></div>
+      </section>
+    </section>
+    <footer class="pie">
+     Creative Commons versión 3.0 SciSoft 2023
+    </footer>
+  </section>
+</body>
+</html>
